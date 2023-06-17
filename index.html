@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Slider JS</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="slider-container">
+      <button class="previous chevron">
+        <img
+          class="chevron-img"
+          src="/ressources/left-chevron.svg"
+          alt="left chevron"
+        />
+      </button>
+      <button class="next chevron">
+        <img
+          class="chevron-img"
+          src="/ressources/right-chevron.svg"
+          alt="right chevron"
+        />
+      </button>
+
+      <div class="slide-container">
+        <div class="slide active">
+          <img src="/ressources/cat-1.jpg" alt="cat profile" />
+          <h2>Slide 1</h2>
+          <p>Subtitle</p>
+          <button class="slide-button">Subscribe</button>
+        </div>
+        <div class="slide">
+          <img src="/ressources/cat-2.jpg" alt="cat profile" />
+          <h2>Slide 2</h2>
+          <p>Subtitle</p>
+          <button class="slide-button">Subscribe</button>
+        </div>
+        <div class="slide">
+          <img src="/ressources/cat-3.jpg" alt="cat profile" />
+          <h2>Slide 3</h2>
+          <p>Subtitle</p>
+          <button class="slide-button">Subscribe</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
